@@ -46,5 +46,5 @@ int main() {
     volume = vol(lengthInt);
 
     // Output
-    std::cout << "Volume is " << volume << " mm^3" << std::endl;
+    std::cout << "Volume is " << volume << " cm^3" << std::endl;
 }
