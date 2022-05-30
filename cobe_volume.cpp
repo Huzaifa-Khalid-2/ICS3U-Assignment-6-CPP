@@ -32,12 +32,14 @@ int main() {
         try {
             lengthInt = std::stof(lengthStr);
             if (lengthInt <= 0) {
-                std::cout << "\nlength be positive you dunce, try again";
+                std::cout << "\nlength must be positive you dunce! try again";
+                std::cout << "" << std::endl;
             } else {
                 break;
             }
         } catch (std::invalid_argument) {
-            std::cout << "\nThat is not a number you dunce, enter a number!";
+            std::cout << "\nThat is not a number you dunce! try again";
+            std::cout << "" << std::endl;
         }
     }
     std::cout << "" << std::endl;
